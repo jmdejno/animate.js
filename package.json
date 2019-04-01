@@ -1,8 +1,12 @@
 {
-  "name": "animate.js",
+  "name": "jd-animate",
   "version": "1.0.0",
   "description": "Animation function with various easing types.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "jest",
     "build": "tsc",
